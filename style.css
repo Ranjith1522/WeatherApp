@@ -1,5 +1,8 @@
+.app {
+    background-color: rgb(247, 254, 55);
+}
 .header {
-    color: rgb(230, 47, 47);
+    color: rgb(5, 2, 2);
     padding: 10px;
     margin-left: 30%;
 }
@@ -22,4 +25,13 @@
     /* gradient: linear-gradient(135deg,#00fe8394,#748a54); */
     border-radius: 10px;
     
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 0 20px;
 }
