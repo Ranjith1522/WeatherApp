@@ -2,17 +2,35 @@
 <html>
 <head>
     <title>Basic HTML File</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML file.</p>
-</body>
-</html>
-<head>
+    <h1 class="header">Welcome to Weather Reports </h1>
+    
+        <div class="card">
+            <div class="searchInput">
+                <input type="text" placeholder="enter city">
+                <button id="search">Search</button>
+            </div>
 
-</head>
-<body>
+            <div class="weather">
+                <img src="icons/weatherIcon.png" class="mainIcon">
+                <h1 class="temperature">40 degree</h1>
+                <h2 class="city">Hyderabad</h2>
 
+                <div class="details">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
