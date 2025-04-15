@@ -19,6 +19,8 @@ async function getTemperature() {
     console.log("humidity",this.humidity);
     console.log("pressure",this.pressure);
     const temp = document.querySelector('.temperature').innerHTML = this.temperature;
+    const Humidity = document.querySelector('.Humidity').innerHTML = this.humidity;
+    const Pressure = document.querySelector('.Pressure').innerHTML = this.pressure;
 }
 
 
