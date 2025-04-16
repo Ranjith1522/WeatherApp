@@ -23,6 +23,11 @@ async function getTemperature() {
     const Pressure = document.querySelector('.Pressure').innerHTML = this.pressure;
 }
 
+function search() {
+
+    console.log("Searching.....");
+}
+
 
 
 
