@@ -5,8 +5,8 @@ const key ="257f3851d65cf6f276b0c888f566cbed"
 var temperature = 0;
 var humidity = 0;
 var pressure = 0;
-
-
+let searchInput = document.getElementsByClassName('.input');
+console.log(searchInput);
 async function getTemperature() {
     const weatherData = await fetch(apiUrl + `&appid=${key}`);
     var data = await weatherData.json();
